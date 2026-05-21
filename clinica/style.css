@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+#titulo-clinica {
+    color: darkblue;
+}
+
+.bemvindo {
+    font-size: 18px;
+}
+
+.servico,
+.medico,
+#aviso,
+.depoimento {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#aviso {
+    background-color: lightyellow;
+    font-weight: bold;
+}
