@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    animation: moverBotao 3s infinite;
+}
+
+
+@keyframes moverBotao {
+
+    0% {
+        transform: translateX(-200px);
+        background-color: blue;
+    }
+
+    50% {
+        transform: translateX(200px);
+        background-color: rgb(222, 141, 154);
+    }
+
+    100% {
+        transform: translateX(-200px);
+        background-color: green;
+    }
+
+}
