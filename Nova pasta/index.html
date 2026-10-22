@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de desenvolvimento web">
+  <title>Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#inicio" class="logo">GG<span>PORTIFÓLIO</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato" class="nav-button">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="tag">Olá, seja bem-vindo!</span>
+        <h1>Eu sou um <span>Desenvolvedor Web</span></h1>
+        <p>Transformo ideias em experiências digitais, criando sites modernos, responsivos e funcionais.</p>
+        <div class="hero-buttons">
+          <a href="#projetos" class="btn primary">Ver projetos ↗</a>
+          <a href="#contato" class="btn secondary">Fale comigo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="section-heading">
+        <h2>Sobre <span>mim</span></h2>
+      </div>
+      <div class="about-content">
+        <div>
+          <h3>Desenvolvendo o futuro, uma linha de código por vez.</h3>
+          <p>Sou apaixonado por tecnologia, design e desenvolvimento. Gosto de criar soluções digitais que unem beleza, facilidade de uso e desempenho.</p>
+          <p>Estou sempre aprendendo novas tecnologias e buscando transformar desafios em projetos reais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="section-heading">
+        <h2>Minhas <span>habilidades</span></h2>
+        <p>Tecnologias que utilizo para dar vida às minhas ideias.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon orange-bg">5</div>
+          <h3>HTML5</h3>
+          <p>Estrutura semântica e acessível para páginas web.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon blue-bg">3</div>
+          <h3>CSS3</h3>
+          <p>Layouts responsivos, animações e interfaces modernas.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon yellow-bg">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interatividade e funcionalidades dinâmicas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-heading">
+        <h2>Projetos em <span>destaque</span></h2>
+        <p>Alguns projetos para apresentar meu trabalho.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image project-one"><span>01</span><small>E-COMMERCE</small></div>
+          <div class="project-info">
+            <h3>Loja Virtual</h3>
+            <p>Uma experiência de compras moderna e intuitiva.</p>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">Ver projeto ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image project-two"><span>02</span><small>DASHBOARD</small></div>
+          <div class="project-info">
+            <h3>Painel de Controle</h3>
+            <p>Interface para visualizar dados de forma simples.</p>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">Ver projeto ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image project-three"><span>03</span><small>LANDING PAGE</small></div>
+          <div class="project-info">
+            <h3>Site Institucional</h3>
+            <p>Página profissional com foco em conversão.</p>
+            <div class="tech-list"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">Ver projeto ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <span class="tag">VAMOS TRABALHAR JUNTOS?</span>
+      <h2>Tem uma ideia? Vamos <span>tirar do papel.</span></h2>
+      <p>Estou aberto a oportunidades, projetos e novas conexões.</p>
+      <a class="btn primary" href="mailto:seuemail@exemplo.com">Enviar um e-mail ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#inicio" class="logo">Dev<span>.</span></a>
+    <p>© <span id="year"></span> Seu Nome. Feito com HTML, CSS e JS.</p>
+    <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
