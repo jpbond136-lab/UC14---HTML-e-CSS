@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eee;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background: rgba(108, 3, 103, 0.541);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(108, 3, 103, 0.541);
+}
+
+#resultado {
+    font-weight: bold;
+}
